@@ -1,0 +1,180 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;   
+}
+
+body{
+     background: rgb(240, 236, 229);
+}
+form{
+   width: 400px;
+   justify-content: center;
+   padding: 10px;
+   align-items: center;
+   text-align: center;
+   /* background-color: purple; */
+   margin-left: 500px;
+   border: 0.5px solid gray ;
+   background: white;
+   border-radius: 20px;
+   margin-left: 280px;
+   margin-top: 30px;
+   border: transparent;
+   
+}.login{
+    margin-left: 3px;
+}
+ .logo-area{
+    padding: 35px;
+
+    
+ }
+ button{
+    width: 80%;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+    /* margin-right: 90px; */
+    /* border: transparent; */
+    
+    
+ }
+
+ .login{
+    border: transparent;
+ }
+input{
+    padding: 12px;
+    border-radius: 8px;
+    margin: 10px;
+    width: 80%;
+    
+}
+select{
+    border: none;
+    cursor: pointer;
+}
+a{
+    border: none;
+    width: 80%;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    /* font-size: 10px; */
+}
+
+.new-era{
+    margin-top: 80px;
+    /* border:blue ; */
+    border-color: rgb(33, 80, 143);
+    color: blue;
+    box-shadow: none;
+}
+
+.login{
+    background-color: rgb(49, 46, 241);
+}
+
+
+/* TABLETS */
+@media screen and (max-width: 315px) {
+    form {
+        width: 400px;
+        margin: 50px auto;
+    }
+
+    .logo-area {
+        padding: 30px;
+    }
+
+    button {
+        width: 60%;
+        font-size: 16px;
+        margin-right: 0px;
+    }
+
+    input {
+        width: 80%;
+        font-size: 16px;
+    }
+
+    .new-era {
+        margin-top: 60px;
+    }
+}
+
+
+/* MOBILE PHONES */
+@media screen and (max-width: 480px) {
+
+    body {
+        padding: 10px;
+    }
+
+    form {
+        width: 100%;
+        max-width: 400px;
+        margin: 30px auto;
+        padding: 10px;
+    }
+
+    .logo-area {
+        padding: 25px;
+    }
+
+    .logo-area img {
+        width: 70px;
+    }
+
+    input {
+        width: 90%;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    button {
+        width: 90%;
+        padding: 12px;
+        font-size: 15px;
+    }
+
+    select {
+        font-size: 13px;
+    }
+
+    .new-era {
+        margin-top: 60px;
+    }
+
+    a {
+        font-size: 14px;
+    }
+}
+
+
+/* SMALL MOBILE PHONES */
+@media screen and (max-width: 320px) {
+
+    form {
+        width: 100%;
+        padding: 5px;
+    }
+
+    input {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    button {
+        width: 95%;
+        font-size: 13px;
+    }
+
+    .logo-area {
+        padding: 15px;
+    }
+}
+
+
